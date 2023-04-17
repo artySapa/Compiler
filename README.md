@@ -1,7 +1,7 @@
 # Compiler
 
 ## Description
-Given a simple algorithm for the processing arbitrary number of lines of code, including noticing scopes, I made a better algorithm to reduce the time spent on processing. The Final performance for 400000 lines of code reduced from ~2500 msec to ~11 msec. 
+Given a simple algorithm for the processing arbitrary number of lines of code, including noticing scopes, I made a better algorithm to reduce the time spent on processing. The Final performance for 400000 lines of code reduced from ~2500 msec to ~11 msec. To use it, fisr uncomment the generateTests file and run only this file. Then comment it out again and use the testNameTable file to go through the algoithms.
 
 ## Data structures used
 My NameTableImpl has 3 private members: vector of vectors of strings to take track of scopes and variables that were introduced in that particular scope, the latest integer that takes track of the last scope that we entered, and hash table hash.

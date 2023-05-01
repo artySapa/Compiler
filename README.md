@@ -1,5 +1,7 @@
 # Compiler
 
+https://user-images.githubusercontent.com/118086930/235388605-5dddb4aa-6f81-4764-bb16-b1cab0c18984.mov
+
 ## Description
 Given a simple algorithm for the processing arbitrary number of lines of code, including noticing scopes, I made a better algorithm to reduce the time spent on processing. The Final performance for 400000 lines of code reduced from ~2500 msec to ~11 msec. To use it, fisr uncomment the generateTests file and run only this file. Then comment it out again and use the testNameTable file to go through the algorithms.
 
